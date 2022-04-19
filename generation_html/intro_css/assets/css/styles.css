@@ -1,0 +1,68 @@
+/* Selector universañ */
+*{
+    background-color: mediumslateblue;
+}
+
+
+
+
+/* Selector de etiqueta */
+/* elemento HTML { } */
+
+/* Selector de clase*/
+
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: palegoldenrod;
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+/* Selector de ID */
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(78,67,54, .9);
+}
+
+/* !important tiene la mayor jerarquia*/
+
+.color{
+    background-color: darkorange;
+}
+
+.color{
+    background-color: peru;
+}
+
+.color{
+    background-color: lightseagreen;
+}
+
+.color-texto{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+.borde{
+    /*border: 3px solid black;*/
+    /*border-top: 3px solid palegoldenrod;
+    border-right: 3px dashed brown;
+    border-bottom: 3px dotted palegreen;
+    border-left: 3px double purple;*/
+    text-align: center;
+    line-height: 100px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 40;
+}

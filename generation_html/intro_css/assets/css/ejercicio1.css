@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Courier New', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.color-texto{
+    background-color: rgb(227, 141, 195)
+}
+
+.borde-figura{
+    background-color: orange;
+    border: 1px solid rgb(222, 88, 5);
+    border-radius: 3px;
+}
+
+.borde-p{
+        border-left: 4px solid rgb(224, 41, 102);
+}
+
+.fondo{
+    background-color: rgb(234, 229, 229);
+}
+
+.bordes-doble{
+    border-top: 2px solid rgb(224, 41, 102);
+    border-bottom: 2px solid rgb(224, 41, 102);
+}
