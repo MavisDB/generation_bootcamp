@@ -38,34 +38,30 @@
         <input type="reset" value ="Limpiar">
         <input type="submit">
     </form>
-    <script>
-        const color = document.querySelector("#inputColor")
-        console.log(color);
-        color.addEventListener("change", function (e){
-            document.body.style.backgroundColor = e.target.value;
-        })
-    </script>
     <hr>
     <h1> Formulario </h1>
-    <form class="formulario">
+    <form class="formulario" id="formularioDatos">
         <div class="nombre">
             <label class="acomodoLabel" for="nombre"> Nombre: </label>
-            <input class="colorFondo" type="text" id="nombre" placeholder="Nombre" required>
+            <input class="colorFondo" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
         </div>
         <div class="apellido">
             <label class="acomodoLabel" for="apellido"> Apellido: </label>
-            <input class="colorFondo" type="text" id="apellido" placeholder="Apellido">
+            <input class="colorFondo" type="text" name="apellido" id="apellido" placeholder="Apellido">
         </div>
         <div class="password">
             <label class="acomodoLabel" for="password"> Password: </label>
-            <input class="colorFondo"type="password" id="password" required>
+            <input class="colorFondo" type="password" name="password" id="password" required>
         </div>
         <div class="correo">
             <label class="acomodoLabel" for="correo"> Correo: </label>
-            <input class="colorFondo" type="email" required id="correo">
+            <input class="colorFondo" type="email"  name="email" required id="correo">
         </div>
         <input class="btn-enviar" type="submit" value="Enviar">
         <div class="enviar"></div>
     </form>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"> </script>
 </body>
 </html>
