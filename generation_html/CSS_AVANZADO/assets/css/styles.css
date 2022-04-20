@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.cuadro{
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    /*display: inline-block;*/
+
+}
+
+/*Botton, top, left, right
+static: Queda igual el elemento
+relative: Mueves las cosas detras de la pagina*/
+
+h1{
+    /*position: relative;
+    top: 150px;
+    z-index: -1;*/ /* z-index - posicion de elementos*
+    absolute, fixed -- los elementos bajan cuando te puebes, relative, statix
+    sticky, es como fixed pero le puedes indicar cuando detenerse*/
+}
+.div1{
+    background-color: rgb(44, 176, 176);
+    /*position: static;
+    bottom: 100px;*/
+}
+
+.div2{
+    background-color: brown;
+    position: sticky;
+    top: 100px;
+}
+
+.div3{
+    background-color: palevioletred;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
