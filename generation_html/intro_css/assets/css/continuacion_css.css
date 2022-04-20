@@ -1,0 +1,39 @@
+/* px - fuente/ tamaño del body*/
+/* % - */
+/* 1200 px - PC
+    750 px - Tablet
+    400 px - Celular*/
+
+/* Unidades de medidas relativas*/
+/* %, 
+    Rem 1 = Tamaño de px de nuestro navegador, 
+    Em = Tamaño de fuente del elemento padre,
+    vh = ,
+    vw 0= 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}*/
+
+.forma{
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    padding: 5px
+}
+
+.color{
+    background-color: rgba(71, 61, 139, 0.569);
+    border: 5px solid saddlebrown;
+}
+
+p{
+    padding: 20px;
+    border: 2px solid rgb(8, 92, 56);
+}
+
+a{
+    padding: 10px;
+    border: 3px solid darkorange;
+    display: block;
+}

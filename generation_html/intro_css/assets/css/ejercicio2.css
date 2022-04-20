@@ -1,0 +1,33 @@
+.forma{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+}
+
+.color{
+    background-color: #0a6e3cfb;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textob{
+    color    : aliceblue;
+    font-style: italic;
+}
+
+.textoA-claro{
+    color    : rgb(237, 228, 169);
+}
+
+.textoA-fuerte{
+    color    : rgb(176, 152, 16);
+}
+
+
+.textoRosa{
+    color    : rgb(224, 24, 81);
+}
+
