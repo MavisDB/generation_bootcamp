@@ -1,0 +1,40 @@
+
+.formulario{
+    border: 10px solid rgb(178, 212, 250);
+    padding: 10px;
+    background-color: #0c631c;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.borde{
+    border-color: red;
+    
+}
+
+.acomodoLabel{
+    display: inline-block;
+    width: 100px;
+}
+
+label{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 90px;
+}
+
+p{
+    color: aliceblue;
+    margin-left: 30px;
+}
+.boton{
+    margin-top: 10px;
+
+    margin-left: 60px;
+}
+
+.linea{
+    margin-left: 30px;
+}

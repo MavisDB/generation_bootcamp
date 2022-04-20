@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(95, 251, 251, 0.992);
+}
+
+tr, td, th, table{
+    border: 1px solid black;
+}
+
+.fondo-orange{
+    background-color: rgb(228, 131, 46);
+}
+
+.fondo-verde{
+    background-color: greenyellow;
+}
+
+.fondo-negro{
+    background-color: black;
+}
+
+.rojo{
+    color: red;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.amarillo{
+    color: yellow;
+}
+
+.negrita{
+    font-weight: bold;
+}
