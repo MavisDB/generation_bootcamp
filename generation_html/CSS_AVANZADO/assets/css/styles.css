@@ -22,7 +22,7 @@ h1{
     /*position: relative;
     top: 150px;
     z-index: -1;*/ /* z-index - posicion de elementos*
-    absolute, fixed -- los elementos bajan cuando te puebes, relative, statix
+    absolute, fixed -- los elementos bajan cuando te mueves, relative, statix
     sticky, es como fixed pero le puedes indicar cuando detenerse*/
 }
 .div1{

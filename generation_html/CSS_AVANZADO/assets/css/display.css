@@ -1,0 +1,40 @@
+.padre{
+    width: 80%;
+    height: 60vh; /* viu*/
+    border: 2px solid rgb(79, 6, 70);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*row 
+justify content los acomoda 
+horizontalmente (derecha a izquierda)
+
+align items verticalmente (arriba - abajo)
+
+colum (columna)
+align items horizontalmente
+(izquierda - derecha)
+
+justify-content los acomoda verticalmente (arriba - abajo)
+*/
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #086b4d;
+}
+
+.div1{
+    background-color: rgb(251, 194, 88);
+}
+
+.div2{
+    background-color: rgb(73, 190, 205);
+}
+
+.div3{
+    background-color: rgb(82, 211, 138);
+}

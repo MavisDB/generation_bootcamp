@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Play&display=swap');
+*{
+    /*font-family:'Play', sans-serif;¨
+    font-family: 'Amatic SC', cursive;*/
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+}
+
+p{
+    font-family:'Play', sans-serif;
+    text-decoration: underline;
+}
