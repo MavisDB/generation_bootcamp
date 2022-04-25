@@ -10,3 +10,10 @@
     object-fit: cover;
     object-position: center;
 }
+
+/* Imahenes*/
+.img-card{
+height: 180px;
+object-fit: cover;
+object-position: center;
+}
