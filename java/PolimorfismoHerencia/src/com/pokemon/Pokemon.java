@@ -1,11 +1,11 @@
 package com.pokemon;
 
-public class Pokemon {
+public abstract class Pokemon {
 	//atributos
 	private  int id;
 	private  int edad;
 	private  int nivel;
-	protected  String nom;
+	private String nom;
 	private  boolean evolucion;
 	
 	//constructor
@@ -26,6 +26,11 @@ public class Pokemon {
 	public void dormir() {
 		System.out.println(nom + " zzzzzZZZZ");
 	}
+	
+	//metodo abstracto
+	public abstract void saludar(String mensaje);
+	
+	//getters y setters
 	public int getId() {
 		return id;
 	}
