@@ -1,4 +1,5 @@
 package com.generation.testMaven;
+import org.junit.Test;
 import org.junit.jupiter.api.*;
 
 public class AppTest 
